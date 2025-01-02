@@ -5,7 +5,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="86decbd1-ca83-4c0f-ba51-42a1b9280b71" >
-		<http:listener-connection host="localhost" port="8081" />
+		<http:listener-connection host="0.0.0.0" port="${http.port}" />
 	</http:listener-config>
 	<flow name="mulejenkin-cicd-deploy-stdiofileFlow" doc:id="a2b4c315-f75a-4187-8c30-b7d6ea71cb9b" >
 		<http:listener doc:name="Listener" doc:id="721647df-668a-4909-90fe-dfc0ee8f27c3" config-ref="HTTP_Listener_config" path="/testcicd"/>
