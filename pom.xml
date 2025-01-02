@@ -37,7 +37,7 @@
 						<provider>MC</provider>
 						<environment>${env}</environment>
 						<target>${targetName}</target>
-						<muleVersion>${app.runtime}</muleVersion>
+						<muleVersion>${runtime}</muleVersion>
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
 						<applicationName>${appname}</applicationName>
