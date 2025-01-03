@@ -1,9 +1,0 @@
-<settings>
-	<servers>
-		<server>
-			<id>maven-cicd-server-app</id>
-			<username>~~~Client~~~</username>
-			<password>c12bbdba564d4bfa90a420785f66d152~?~9Cb6462eC0804BE28af5EE887E6016D0</password>
-		</server>
-	</servers>
-</settings>
